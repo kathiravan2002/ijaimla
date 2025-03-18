@@ -9,16 +9,18 @@ function Articalprocessing() {
         <div className='flex flex-row  w-full'>
             <Sidebar />
             <div className="text-justify  max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2  ">
-                <h1 className="text-2xl poppins-extrabold mb-4 text-[#1A4480]">Artical Processing :</h1>
+                <h1 className="text-2xl poppins-extrabold mb-4 text-[#1A4480]">Article Processing :</h1>
                 <p className="text-black text-base poppins-regular">The International Journal of Artificial Intelligence and Machine Learning Applications (IJAIMLA) follows a structured article processing system to ensure a smooth and efficient publication experience for authors. The process is designed to maintain high research quality and provide timely publication of accepted articles.
                 </p>
 
                 {/* Submit Manuscript Button */}
                 <div className='text-center mb-6 mt-3'>
-                    <button className="bg-[#1A4480] text-white px-4 py-2 rounded-lg hover:bg-[#1d3c66] transition duration-300" >
-                        <div className='flex justify-between gap-3 poppins-bold'>  Submit Manuscript
-                            <img src={submit} alt="Submit Icon" className="w-5 h-5" /></div>
-                    </button>
+                    <a href="https://www.ijaimla.com/Ijaimla/index.php/ijaimla/about/submissions" target="_blank" rel="noopener noreferrer">
+                        <button className="bg-[#1A4480] text-white px-4 py-2 rounded-lg hover:bg-[#1d3c66] transition duration-300 poppins-bold" >
+                            <div className='flex justify-between gap-3 '>  Submit Manuscript
+                                <img src={submit} alt="Submit Icon" className="w-5 h-5" /></div>
+                        </button>
+                    </a>
                 </div>
 
                 {/* Aim Section */}
@@ -46,10 +48,10 @@ function Articalprocessing() {
 
                 <div className="bg-[#DED3B5] p-6 rounded-lg mt-10 ">
                     <h2 className="text-xl poppins-bold text-center mb-6 text-[#1A4480]">
-                    Processing Steps
+                        Processing Steps
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                       
+
                         <div className="bg-white p-4 border rounded-lg text-center">
                             <img
                                 src={article}
@@ -58,7 +60,7 @@ function Articalprocessing() {
                             />
                             <h3 className="text-lg text-[#1A4480] poppins-bold mb-2">Initial Submission</h3>
                             <p className="text-black text-sm  text-justify poppins-regular">
-                            Authors submit their manuscript through the journal's online submission system. The editorial team conducts an initial review to check the manuscript’s relevance, formatting, and adherence to the journal's guidelines.
+                                Authors submit their manuscript through the journal's online submission system. The editorial team conducts an initial review to check the manuscript’s relevance, formatting, and adherence to the journal's guidelines.
                             </p>
                         </div>
 
@@ -71,7 +73,7 @@ function Articalprocessing() {
                             />
                             <h3 className="text-lg poppins-bold mb-2 text-[#1A4480]">Peer Review</h3>
                             <p className="text-black text-sm  text-justify poppins-regular">
-                            Manuscripts undergo rigorous double-blind peer review by expert reviewers in your field. Receive detailed feedback to enhance your work.Authors may be required to revise their manuscripts based on reviewer comments.
+                                Manuscripts undergo rigorous double-blind peer review by expert reviewers in your field. Receive detailed feedback to enhance your work.Authors may be required to revise their manuscripts based on reviewer comments.
                             </p>
                         </div>
 
@@ -84,7 +86,7 @@ function Articalprocessing() {
                             />
                             <h3 className="text-lg poppins-bold mb-2 text-[#1A4480]">Publications</h3>
                             <p className="text-black text-sm  text-justify poppins-regular">
-                            After the peer review and final approval, the manuscript is formatted and published online under an open access model with a DOI for permanent referencing. The published article becomes accessible to researchers, academicians, and professionals worldwide.
+                                After the peer review and final approval, the manuscript is formatted and published online under an open access model with a DOI for permanent referencing. The published article becomes accessible to researchers, academicians, and professionals worldwide.
                             </p>
                         </div>
                     </div>

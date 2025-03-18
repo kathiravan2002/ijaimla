@@ -30,13 +30,13 @@ export default function Approuter() {
             <Route path="/peer" element={<Peerreviewpage/>}/>
             <Route path="/publicationethicspage" element={<Publicationethicspage/>}/>
             <Route path="/abstractindexing" element={<Abstractindexingpage/>}/>
-            <Route path="/articalprocessingpage" element={<Articalprocessingpage/>}/>
+            <Route path="articleprocessingpage" element={<Articalprocessingpage/>}/>
             <Route path="/authorguidelinespage" element={<Authorguidelinespage/>}/>
             <Route path="/copyrightformpage" element={<Copyrightformpage/>}/>
             <Route path="/contactuspage" element={<Contactuspage/>}/>
 
 
-
+             
             </Route>
           </Routes>
         

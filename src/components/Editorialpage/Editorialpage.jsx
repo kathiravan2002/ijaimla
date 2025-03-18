@@ -1,9 +1,13 @@
 import React from 'react'
 import Editorial from '../../shared/components/Editorial/Editorial'
+import Helmetcomponent from '../Helmetcomponent/Helmetcomponent'
 
 function Editorialpage() {
   return (
-    <div><Editorial/></div>
+    <div>
+      <Helmetcomponent title={'Editorial - International Journal of Artificial Intelligence and Machine Learning Applications'} />
+      <Editorial/>
+      </div>
   )
 }
 

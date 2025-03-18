@@ -73,10 +73,12 @@ const Home = () => {
               is a scholarly, open-access, peer-reviewed interdisciplinary journal that publishes high-quality research in Artificial Intelligence (AI) and Machine Learning (ML). It is a quarterly publication that focuses on the latest theories, methods, and applications in AI and ML, covering areas such as Deep Learning, Natural Language Processing, Computer Vision, Reinforcement Learning, and AI-driven Decision-making. The journal aims to Advance Scientific Knowledge and Promote Innovation in AI and ML by encouraging collaboration among Researchers, Academicians, and Industry Professionals.
             </p>
             <div className="text-center px-4 lg:px-0">
-              <button className="bg-[#1A4480] text-white px-4 py-2 rounded-lg hover:bg-[#1d3c66] transition duration-300 poppins-bold" >
-                <div className='flex justify-between gap-3 '>  Submit Manuscript
-                  <img src={submit} alt="Submit Icon" className="w-5 h-5" /></div>
-              </button>
+              <a href="https://www.ijaimla.com/Ijaimla/index.php/ijaimla/about/submissions" target="_blank" rel="noopener noreferrer">
+                <button className="bg-[#1A4480] text-white px-4 py-2 rounded-lg hover:bg-[#1d3c66] transition duration-300 poppins-bold" >
+                  <div className='flex justify-between gap-3 '>  Submit Manuscript
+                    <img src={submit} alt="Submit Icon" className="w-5 h-5" /></div>
+                </button>
+              </a>
             </div>
           </section>
           <div className="bg-black mb-4 lg:mb-4 w-full">

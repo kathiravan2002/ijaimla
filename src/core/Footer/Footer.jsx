@@ -14,7 +14,7 @@ const Footer = () => {
     { text: 'Peer review Process', path: '/peer' },
     { text: 'Publications Ethics', path: '/publicationethicspage' },
     { text: 'Abstracting and indexing', path: '/abstractindexing' },
-    { text: 'Article Processing', path: '/articalprocessingpage' },
+    { text: 'Article Processing', path: '/articleprocessingpage' },
   ];
 
   return (
