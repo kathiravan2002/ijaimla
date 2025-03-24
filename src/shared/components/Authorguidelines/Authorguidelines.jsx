@@ -26,7 +26,7 @@ function Authorguidelines() {
 
           <div className='flex items-start '><img src={arrow} alt="ll" /> <p className="text-base mb-2 poppins-regular">International Journal of Artificial Intelligence and Machine Learning Applications  (IJAIMLA) offers a platform for scholars and professionals to publish cutting-edge research. Our editorial and peer review process ensures the highest standards of academic integrity.</p><br />
           </div>
-          <h1 className="text-base poppins-bold mb-2">Key Requirements :</h1>
+          <h2 className="text-base poppins-bold mb-2">Key Requirements :</h2>
           <ul className="list-disc pl-12 space-y-2 poppins-regular">
             <li>
             Manuscripts must adhere to the IJAIMLA template 
@@ -49,7 +49,7 @@ function Authorguidelines() {
 
           <div className='flex items-start '><img src={arrow} alt="ll" /> <p className="text-base mb-2 poppins-regular">Submit your manuscript in OpenOffice, Microsoft Word, or RTF format through our Open Journal System (OJS).</p><br />
           </div>
-          <h1 className="text-base poppins-bold mb-2">Key Requirements :</h1>
+          <h2 className="text-base poppins-bold mb-2">Key Requirements :</h2>
           <ul className="list-disc pl-12 space-y-2 poppins-regular">
             <li>
             Initial manuscript screening by editorial team 
@@ -63,7 +63,7 @@ function Authorguidelines() {
             <li> Final editorial decision  </li>
             <li> Publication with Creative Commons licensing</li>
           </ul>
-          <div className='flex items-start mt-2'><img src={arrow} alt="ll" /> <p className="text-base mb-2 ">Our editorial team provides comprehensive support throughout the submission process to ensure a smooth publishing experience.</p><br />
+          <div className='flex items-start mt-2'><img src={arrow} alt="ll" /> <p className="text-base mb-2 poppins-regular">Our editorial team provides comprehensive support throughout the submission process to ensure a smooth publishing experience.</p><br />
           </div>
         </div>
 

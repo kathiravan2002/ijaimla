@@ -21,9 +21,9 @@ const Sidebar = () => {
     <div className="hidden lg:flex relative ">
       <div className="sticky top-32 max-h-[calc(90vh-175px)]  overflow-auto">
         <div className='border rounded-lg p-4 w-64 bg-white'>
-        <h2 className=" font-poppins text-[#1A4480] underline  underline-offset-4 p-2   text-xl font-bold  w-full">
+        {/* <h2 className=" font-poppins text-[#1A4480] underline  underline-offset-4 p-2   text-xl font-bold  w-full">
           Important Links
-        </h2>
+        </h2> */}
         <ul className="space-y-2">
           {links.map((item, index) => (
             <li key={index} className="border-b border-gray-200">
