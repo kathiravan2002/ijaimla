@@ -50,7 +50,7 @@ function Publicationethics() {
                                 alt="Document Icon"
                                 className="w-12 h-12 mx-auto mb-4"
                             />
-                            <h3 className="text-lg text-[#1A4480] poppins-bold mb-2">Open Acess Policy</h3>
+                            <h3 className="text-lg text-[#1A4480] poppins-bold mb-2">Open Access Policy</h3>
                             <p className="text-black text-sm  text-justify poppins-regular">
                             All articles published in IJAIMLA are freely accessible to readers worldwide under an open access model. This ensures that research findings are available to a global audience without any subscription or payment barriers.
                             </p>

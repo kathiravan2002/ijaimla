@@ -10,11 +10,11 @@ function Aboutus() {
             <Sidebar />
             <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 ">
                 <h1 className="text-2xl poppins-extrabold mb-4 text-[#1A4480]">About us :</h1>
-                <p className="text-black text-base poppins-regular">The International Journal of Artificial Intelligence and Machine Learning Applications (IJAIMLA) is a Leading International, Open-Access, Peer-Reviewed journal focused on Advancing Research and Innovation in Artificial Intelligence (AI) and Machine Learning (ML). The journal provides a platform for Researchers, Academicians, and Industry experts to publish original Research, Case Studies, and Reviews Covering both Theoretical and Practical aspects of AI and ML. IJAIMLA aims to promote the exchange of Ideas and Knowledge in areas such as Deep Learning, Natural Language Processing, Computer Vision, Reinforcement Learning, and AI-driven solutions across various Industries. </p>
+                <p className="text-black text-base poppins-regular">The International Journal of Artificial Intelligence and Machine Learning Applications is a Leading International, Open-Access, Peer-Reviewed journal focused on Advancing Research and Innovation in Artificial Intelligence (AI) and Machine Learning (ML). The journal provides a platform for Researchers, Academicians, and Industry experts to publish original Research, Case Studies, and Reviews Covering both Theoretical and Practical aspects of AI and ML. IJAIMLA aims to promote the exchange of Ideas and Knowledge in areas such as Deep Learning, Natural Language Processing, Computer Vision, Reinforcement Learning, and AI-driven solutions across various Industries. </p>
 
                 {/* Submit Manuscript Button */}
                 <div className='text-center mb-6 mt-3'>
-                    <a href="https://www.ijaimla.com/Ijaimla/index.php/ijaimla/about/submissions" target="_blank" rel="noopener noreferrer">
+                    <a href="https://ijaimla.com/Ijaimla/index.php/ijaimla/about/submissions" target="_blank" rel="noopener noreferrer">
                         <button className="bg-[#1A4480] text-white px-4 py-2 rounded-lg hover:bg-[#1d3c66] transition duration-300 poppins-bold" >
                             <div className='flex justify-between gap-3 '>  Submit Manuscript
                                 <img src={submit} alt="Submit Icon" className="w-5 h-5" /></div>

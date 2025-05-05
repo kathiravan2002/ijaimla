@@ -108,7 +108,7 @@ const Header = () => {
               </li>
             ))}
             <li>
-              <a href="https://www.ijaimla.com/Ijaimla/index.php/ijaimla/about/submissions" target="_blank" rel="noopener noreferrer">
+              <a href="https://ijaimla.com/Ijaimla/index.php/ijaimla/about/submissions" target="_blank" rel="noopener noreferrer">
                 <button className="bg-[#DED3B5] text-[#1A4480] px-3 py-2 lg:px-4 lg:py-2 rounded-lg hover:bg-[#f5e0a5] transition duration-300">
                   <div className="flex justify-between items-center gap-2 lg:gap-3 poppins-bold">
                     Submit Manuscript

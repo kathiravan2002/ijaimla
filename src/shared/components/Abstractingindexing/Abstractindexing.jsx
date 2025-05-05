@@ -9,7 +9,7 @@ function Abstractindexing() {
             <Sidebar />
             <div className=" text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 ">
                 <h1 className="text-2xl poppins-extrabold mb-4 text-[#1A4480]">Abstracting and Indexing:</h1>
-                <p className="text-black text-base poppins-regular">The International Journal of Artificial Intelligence and Machine Learning Applications (IJAIMLA) is committed to providing maximum research visibility through indexing in leading academic databases. Our journal ensures that published articles are easily accessible and discoverable by researchers, academicians, and professionals worldwide. Abstracting and indexing enhance the reach and impact of the research, increasing citation potential and academic recognition.
+                <p className="text-black text-base poppins-regular">The International Journal of Artificial Intelligence and Machine Learning Applications is committed to providing maximum research visibility through indexing in leading academic databases. Our journal ensures that published articles are easily accessible and discoverable by researchers, academicians, and professionals worldwide. Abstracting and indexing enhance the reach and impact of the research, increasing citation potential and academic recognition.
                 </p>
 
                 {/* Submit Manuscript Button */}
